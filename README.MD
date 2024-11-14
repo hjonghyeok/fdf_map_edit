@@ -21,7 +21,7 @@ pip install opencv-python
 터미널에서 아래와 같은 형식으로 실행하세요:
 
 ```bash
-python fdf_map.py <이미지_경로> [-r 해상도] [-n 정규화_값]
+python fdf_map.py <이미지 경로> [-r 해상도] [-n 정규화]
 ```
 
 ### 인자 설명
