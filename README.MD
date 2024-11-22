@@ -12,7 +12,7 @@
 
 ## OpenCV 라이브러리 설치
 ```bash
-pip install opencv-python
+pip3 install opencv-python
 ```
 
 ---
@@ -21,7 +21,7 @@ pip install opencv-python
 터미널에서 아래와 같은 형식으로 실행하세요:
 
 ```bash
-python fdf_map.py <이미지 경로> [-r 해상도] [-n 정규화]
+python3 fdf_map.py <이미지 경로> [-r 해상도] [-n 정규화]
 ```
 
 ### 인자 설명
@@ -39,13 +39,13 @@ python fdf_map.py <이미지 경로> [-r 해상도] [-n 정규화]
 
 #### 기본 사용
 ```bash
-python fdf_map.py img.jpg
+python3 fdf_map.py img.jpg
 ```
 - `img.jpg`를 변환하여 `img.fdf`로 저장
 - 해상도 축소 비율은 기본값 `0.5`, 정규화 값은 기본값 `100`이 사용
 
 #### 사용자 지정 해상도와 정규화 값 사용
 ```bash
-python fdf_map.py img.jpg -r 0.7 -n 150
+python3 fdf_map.py img.jpg -r 0.7 -n 150
 ```
 - 이미지를 원본 크기의 70%로 축소하고, 픽셀 값을 `0` ~ `150` 사이로 정규화
