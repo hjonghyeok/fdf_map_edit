@@ -26,8 +26,8 @@ def main(argv, args):
     img_path = args.path
     output_file = os.path.splitext(os.path.basename(img_path))[0] + '.fdf'
     output_file = get_unique_filename(output_file)
-    size = float(args.resolution)
-    normalize_size = int(args.normalize_size)
+    size = float(args.r)
+    normalize_size = int(args.n)
 
     img = cv2.imread(img_path)
     img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
